@@ -1,9 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import random
-#f is ode system, y0 is initial values
 
-#RK4 algorithm
 
 def runge_kutta_system(f, states0, t):
     h = 0.01 #time stpe
